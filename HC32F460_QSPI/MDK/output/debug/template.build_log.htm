@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: none none, none, LIC=HN0AE-5T1RU-RACDM-XSVL0-0KQDZ-3DBWD
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.31.0.0
+Toolchain Path:  E:\keil arm\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.3.0
+Target DLL:      CMSIS_AGDI.dll V1.32.6.0
+Dialog DLL:      TARMCM1.DLL V1.14.2.0
+ 
+<h2>Project:</h2>
+C:\Users\jiguoshengbigeng\Desktop\HC32F460 外部FLASH 下载算法\HC32F460_QSPI\MDK\template.uvprojx
+Project File Date:  12/05/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'E:\keil arm\ARM\ARMCC\Bin'
+Rebuild target 'template_Debug'
+assembling startup_hc32f460.s...
+compiling const_data.c...
+compiling system_hc32f460.c...
+compiling main.c...
+..\source\main.c(329): warning:  #177-D: variable "txBuffer"  was declared but never referenced
+      char txBuffer[] = "Hello QSPI read and write flash example: Welcome to use HDSC micro chip";
+..\source\main.c: 1 warning, 0 errors
+compiling hc32f460_pwc.c...
+compiling hc32f460_clk.c...
+compiling hc32f460_keyscan.c...
+compiling hc32f460_utility.c...
+compiling hc32f460_sram.c...
+compiling hc32f460_icg.c...
+compiling hc32f460_usart.c...
+compiling hc32f460_gpio.c...
+compiling hc32f460_exint_nmi_swi.c...
+compiling hc32f460_interrupts.c...
+compiling hc32f460_efm.c...
+compiling hc32f460_qspi.c...
+compiling ev_hc32f460_lqfp100_v1.c...
+linking...
+Program Size: Code=11792 RO-data=28340 RW-data=16 ZI-data=1536  
+FromELF: creating hex file...
+".\output\debug\template.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: HDSC
+                https://raw.githubusercontent.com/hdscmcu/pack/master/HDSC.HC32F46x.1.0.2.pack
+                HDSC.HC32F46x.1.0.2
+                HC32F46x ARM Cortex-M4 Device Family Pack
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_template_Debug
+  E:\keil arm\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  E:\keil arm\HDSC\HC32F46x\1.0.2\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

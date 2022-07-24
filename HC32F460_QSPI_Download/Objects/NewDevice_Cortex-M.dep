@@ -1,0 +1,128 @@
+Dependencies for Project 'NewDevice', Target 'Cortex-M': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\Abstract.txt)(0x5EC77686)()
+F (.\FlashPrg.c)(0x61AC624F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --apcs /ropi/rwpi -I ..\HC32F460_QSPI_Download -I .\W25Qxx_Driver\w25qxx\inc -I .\W25Qxx_Driver\source -I .\W25Qxx_Driver\bsp\ev_hc32f460_lqfp100_v1 -I .\W25Qxx_Driver\driver\inc -I .\W25Qxx_Driver\mcu\common-I"E:\keil arm\HDSC\HC32F46x\1.0.2\Device\Include"-I"E:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -D__DEBUG -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\flashprg.o --depend .\objects\flashprg.d)
+I (FlashOS.H)(0x5EC7768A)
+I (.\W25Qxx_Driver\w25qxx\inc\w25qxx.h)(0x61AC3F9B)
+F (.\FlashDev.c)(0x61AC5E3E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --apcs /ropi/rwpi -I ..\HC32F460_QSPI_Download -I .\W25Qxx_Driver\w25qxx\inc -I .\W25Qxx_Driver\source -I .\W25Qxx_Driver\bsp\ev_hc32f460_lqfp100_v1 -I .\W25Qxx_Driver\driver\inc -I .\W25Qxx_Driver\mcu\common-I"E:\keil arm\HDSC\HC32F46x\1.0.2\Device\Include"-I"E:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -D__DEBUG -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\flashdev.o --depend .\objects\flashdev.d)
+I (FlashOS.H)(0x5EC7768A)
+F (.\W25Qxx_Driver\w25qxx\src\w25qxx.c)(0x61AC6284)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --apcs /ropi/rwpi -I ..\HC32F460_QSPI_Download -I .\W25Qxx_Driver\w25qxx\inc -I .\W25Qxx_Driver\source -I .\W25Qxx_Driver\bsp\ev_hc32f460_lqfp100_v1 -I .\W25Qxx_Driver\driver\inc -I .\W25Qxx_Driver\mcu\common-I"E:\keil arm\HDSC\HC32F46x\1.0.2\Device\Include"-I"E:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -D__DEBUG -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\w25qxx.o --depend .\objects\w25qxx.d)
+I (.\W25Qxx_Driver\mcu\common\hc32_ddl.h)(0x615690EF)
+I (.\W25Qxx_Driver\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (.\W25Qxx_Driver\mcu\common\hc32f460.h)(0x61AC41B4)
+I (.\W25Qxx_Driver\source\core_cm4.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_version.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_compiler.h)(0x5E8306C2)
+I (.\W25Qxx_Driver\source\cmsis_armcc.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\mpu_armv7.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\mcu\common\system_hc32f460.h)(0x609625AE)
+I (.\W25Qxx_Driver\source\ddl_config.h)(0x609625A7)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_clk.h)(0x609625AE)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_efm.h)(0x6156911D)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_exint_nmi_swi.h)(0x609625AE)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_gpio.h)(0x609625AE)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_icg.h)(0x609625AE)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_interrupts.h)(0x609625AE)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_keyscan.h)(0x609625AE)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_pwc.h)(0x609625AE)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_qspi.h)(0x609625AE)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_sram.h)(0x609625AE)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (.\W25Qxx_Driver\bsp\ev_hc32f460_lqfp100_v1\ev_hc32f460_lqfp100_v1.h)(0x609625AF)
+I (.\W25Qxx_Driver\w25qxx\inc\w25qxx.h)(0x61AC3F9B)
+F (.\W25Qxx_Driver\driver\src\hc32f460_clk.c)(0x60AEEBDD)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --apcs /ropi/rwpi -I ..\HC32F460_QSPI_Download -I .\W25Qxx_Driver\w25qxx\inc -I .\W25Qxx_Driver\source -I .\W25Qxx_Driver\bsp\ev_hc32f460_lqfp100_v1 -I .\W25Qxx_Driver\driver\inc -I .\W25Qxx_Driver\mcu\common-I"E:\keil arm\HDSC\HC32F46x\1.0.2\Device\Include"-I"E:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -D__DEBUG -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_clk.o --depend .\objects\hc32f460_clk.d)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_clk.h)(0x609625AE)
+I (.\W25Qxx_Driver\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (.\W25Qxx_Driver\mcu\common\hc32f460.h)(0x61AC41B4)
+I (.\W25Qxx_Driver\source\core_cm4.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_version.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_compiler.h)(0x5E8306C2)
+I (.\W25Qxx_Driver\source\cmsis_armcc.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\mpu_armv7.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\mcu\common\system_hc32f460.h)(0x609625AE)
+I (.\W25Qxx_Driver\source\ddl_config.h)(0x609625A7)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\W25Qxx_Driver\driver\src\hc32f460_utility.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --apcs /ropi/rwpi -I ..\HC32F460_QSPI_Download -I .\W25Qxx_Driver\w25qxx\inc -I .\W25Qxx_Driver\source -I .\W25Qxx_Driver\bsp\ev_hc32f460_lqfp100_v1 -I .\W25Qxx_Driver\driver\inc -I .\W25Qxx_Driver\mcu\common-I"E:\keil arm\HDSC\HC32F46x\1.0.2\Device\Include"-I"E:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -D__DEBUG -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_utility.o --depend .\objects\hc32f460_utility.d)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_utility.h)(0x609625AE)
+I (.\W25Qxx_Driver\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (.\W25Qxx_Driver\mcu\common\hc32f460.h)(0x61AC41B4)
+I (.\W25Qxx_Driver\source\core_cm4.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_version.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_compiler.h)(0x5E8306C2)
+I (.\W25Qxx_Driver\source\cmsis_armcc.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\mpu_armv7.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\mcu\common\system_hc32f460.h)(0x609625AE)
+I (.\W25Qxx_Driver\source\ddl_config.h)(0x609625A7)
+F (.\W25Qxx_Driver\driver\src\hc32f460_gpio.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --apcs /ropi/rwpi -I ..\HC32F460_QSPI_Download -I .\W25Qxx_Driver\w25qxx\inc -I .\W25Qxx_Driver\source -I .\W25Qxx_Driver\bsp\ev_hc32f460_lqfp100_v1 -I .\W25Qxx_Driver\driver\inc -I .\W25Qxx_Driver\mcu\common-I"E:\keil arm\HDSC\HC32F46x\1.0.2\Device\Include"-I"E:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -D__DEBUG -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_gpio.o --depend .\objects\hc32f460_gpio.d)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_gpio.h)(0x609625AE)
+I (.\W25Qxx_Driver\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (.\W25Qxx_Driver\mcu\common\hc32f460.h)(0x61AC41B4)
+I (.\W25Qxx_Driver\source\core_cm4.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_version.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_compiler.h)(0x5E8306C2)
+I (.\W25Qxx_Driver\source\cmsis_armcc.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\mpu_armv7.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\mcu\common\system_hc32f460.h)(0x609625AE)
+I (.\W25Qxx_Driver\source\ddl_config.h)(0x609625A7)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\W25Qxx_Driver\driver\src\hc32f460_qspi.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --apcs /ropi/rwpi -I ..\HC32F460_QSPI_Download -I .\W25Qxx_Driver\w25qxx\inc -I .\W25Qxx_Driver\source -I .\W25Qxx_Driver\bsp\ev_hc32f460_lqfp100_v1 -I .\W25Qxx_Driver\driver\inc -I .\W25Qxx_Driver\mcu\common-I"E:\keil arm\HDSC\HC32F46x\1.0.2\Device\Include"-I"E:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -D__DEBUG -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_qspi.o --depend .\objects\hc32f460_qspi.d)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_qspi.h)(0x609625AE)
+I (.\W25Qxx_Driver\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (.\W25Qxx_Driver\mcu\common\hc32f460.h)(0x61AC41B4)
+I (.\W25Qxx_Driver\source\core_cm4.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_version.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_compiler.h)(0x5E8306C2)
+I (.\W25Qxx_Driver\source\cmsis_armcc.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\mpu_armv7.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\mcu\common\system_hc32f460.h)(0x609625AE)
+I (.\W25Qxx_Driver\source\ddl_config.h)(0x609625A7)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_utility.h)(0x609625AE)
+F (.\W25Qxx_Driver\mcu\common\system_hc32f460.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --apcs /ropi/rwpi -I ..\HC32F460_QSPI_Download -I .\W25Qxx_Driver\w25qxx\inc -I .\W25Qxx_Driver\source -I .\W25Qxx_Driver\bsp\ev_hc32f460_lqfp100_v1 -I .\W25Qxx_Driver\driver\inc -I .\W25Qxx_Driver\mcu\common-I"E:\keil arm\HDSC\HC32F46x\1.0.2\Device\Include"-I"E:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -D__DEBUG -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\system_hc32f460.o --depend .\objects\system_hc32f460.d)
+I (W25Qxx_Driver\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (W25Qxx_Driver\mcu\common\hc32f460.h)(0x61AC41B4)
+I (.\W25Qxx_Driver\source\core_cm4.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_version.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_compiler.h)(0x5E8306C2)
+I (.\W25Qxx_Driver\source\cmsis_armcc.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\mpu_armv7.h)(0x5E8ED122)
+I (W25Qxx_Driver\mcu\common\system_hc32f460.h)(0x609625AE)
+F (.\W25Qxx_Driver\driver\src\hc32f460_pwc.c)(0x609625AE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --apcs /ropi/rwpi -I ..\HC32F460_QSPI_Download -I .\W25Qxx_Driver\w25qxx\inc -I .\W25Qxx_Driver\source -I .\W25Qxx_Driver\bsp\ev_hc32f460_lqfp100_v1 -I .\W25Qxx_Driver\driver\inc -I .\W25Qxx_Driver\mcu\common-I"E:\keil arm\HDSC\HC32F46x\1.0.2\Device\Include"-I"E:\keil arm\ARM\CMSIS\Include"-D__UVISION_VERSION="531" -D__DEBUG -DHC32F460 -DUSE_DEVICE_DRIVER_LIB-o .\objects\hc32f460_pwc.o --depend .\objects\hc32f460_pwc.d)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_pwc.h)(0x609625AE)
+I (.\W25Qxx_Driver\mcu\common\hc32_common.h)(0x6098D75F)
+I (E:\keil arm\ARM\ARMCC\include\string.h)(0x5EC77604)
+I (E:\keil arm\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (E:\keil arm\ARM\ARMCC\include\stdbool.h)(0x5EC775F6)
+I (.\W25Qxx_Driver\mcu\common\hc32f460.h)(0x61AC41B4)
+I (.\W25Qxx_Driver\source\core_cm4.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_version.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\cmsis_compiler.h)(0x5E8306C2)
+I (.\W25Qxx_Driver\source\cmsis_armcc.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\source\mpu_armv7.h)(0x5E8ED122)
+I (.\W25Qxx_Driver\mcu\common\system_hc32f460.h)(0x609625AE)
+I (.\W25Qxx_Driver\source\ddl_config.h)(0x609625A7)
+I (.\W25Qxx_Driver\driver\inc\hc32f460_utility.h)(0x609625AE)
